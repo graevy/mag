@@ -4,7 +4,7 @@ use std::path::PathBuf;
 use crate::db;
 
 #[derive(Parser)]
-#[command(name = "musiq")]
+#[command(name = "mag")]
 #[command(about = "A CLI music library", long_about = None)]
 pub struct Cli {
     #[command(subcommand)]

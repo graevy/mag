@@ -4,7 +4,7 @@ use std::path::Path;
 
 // connect to the db
 pub fn connect() -> Result<Connection> {
-    let db_path = "music.db";
+    let db_path = "mag.db";
     let conn = Connection::open(db_path)?;
 
     conn.execute_batch(
